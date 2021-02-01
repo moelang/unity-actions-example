@@ -32,7 +32,7 @@ jobs:
         # https://github.com/game-ci/unity-request-activation-file/releases/
         uses: game-ci/unity-request-activation-file@v2.0-alpha-1
         with:
-          unityVersion: ${{ env.UNITY_VERSION }}
+          unityVersion: 2020.1.13f1
       # Upload artifact (Unity_v20XX.X.XXXX.alf)
       - name: Expose as artifact
         uses: actions/upload-artifact@v1
